@@ -1,5 +1,5 @@
-# bd1
-Trabalho de BD 1
+# Trabalho de Banco de Dados 1
 
-O proprietario de um site de venda de passagens, precisa de um banco de dados, que consiga fornecer as informações, necessarias para fornecer a companhia aerea.
-Nome do cliente, Origem de embarque, Destino, trecho de voo, horario de saida, horario de chegada, se possui bagagens a despachar.
+## Tema
+
+Uma empresa de passagens aéreas decide que é hora de ir para o ambiente virtual, primeiramente, para que isso seja feito, é necessário a criação de um banco de dados para o detalhamento e controle de suas passagens, como os melhores preços das passagens, melhores destinos e também, aumentar a variedade ao seus clientes.
