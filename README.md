@@ -1,4 +1,5 @@
 # bd1
 Trabalho de BD 1
 
-Uma loja de agencia de vaigens, recentemente criou um site e deseja que seja feito um banco de dados para que possa ter um controle da sua loja matriz e de suas 3 lojas filiais, para que possa manter um controle dos melhores destinos, melhores precos, para que ofereca uma melhor variedade de destinos e de valores diferentes ao seus clientes.  
+O proprietario de um site de venda de passagens, precisa de um banco de dados, que consiga fornecer as informações, necessarias para fornecer a companhia aerea.
+Nome do cliente, Origem de embarque, Destino, trecho de voo, horario de saida, horario de chegada, se possui bagagens a despachar, 
