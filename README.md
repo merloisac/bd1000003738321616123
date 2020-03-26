@@ -1,7 +1,8 @@
 # Trabalho de Banco de Dados 1
 
-**Turma: S1Nb**
-**Integrantes: Gabriel Nielsen, Isac Merlo, Gabriel Melo**
+**Turma:** S1Nb
+
+**Integrantes:** Gabriel Nielsen, Isac Merlo, Gabriel Melo
 
 ## Tema
 
