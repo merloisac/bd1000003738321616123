@@ -10,3 +10,7 @@ Uma empresa de passagens aéreas decide que é hora de ir para o ambiente virtua
 
 ## Modelo de Diagrama Lógico
 ![Diagrama](https://github.com/merloisac/bd1/raw/atualizado/Diagrama.png)
+
+## To-do
+> Modelo de Diagrama Conceitual
+> Modelo de Diagrama Físico
