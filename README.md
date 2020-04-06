@@ -6,7 +6,10 @@
 
 ## Tema
 
-Uma empresa de passagens aéreas decide que é hora de ir para o ambiente virtual, primeiramente, para que isso seja feito, é necessário a criação de um banco de dados para o detalhamento e controle de suas passagens, como os melhores preços das passagens, melhores destinos e também, dar mais variedades ao seus clientes.
+Uma empresa de passagens aéreas conhecida mundialmente, precisa-se de novos funcionários para que a empresa pudesse trabalhar em uma área virtual, assim, cada funcionário iria receber um cargo de trabalho, cada um deles trabalharia em funções diferentes para melhor atendimento aos clientes. 
+Os funcionários precisam fazer vendas de passagens online, para cada venda de produto (passagem) eles ganhariam uma comissão, uma remuneração em dinheiro. Além do seu salário fixo que receberiam por mês. 
+Para efetuar as vendas, os funcionários da empresa precisa coletar dados para colocarem no banco de dados da empresa, os dados dos clientes seriam impressos nas passagens.
+
 
 ## Modelo de Diagrama Lógico
 ![Diagrama](https://github.com/merloisac/bd1/raw/atualizado/Diagrama.png)
