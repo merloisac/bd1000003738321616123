@@ -6,26 +6,6 @@
 
 ## Tema
 
-•	Empresa
-•	Presidente
-•	Funcionário
-•	Salário
-•	Cliente
-•	Produto
-•	Filial
+Uma empresa de vendas de produtos eletrônicos contratou seu serviço para que possa realizar um banco de dados.
 
-- Uma empresa de higienização, foi fundada em 25/01/2014 por um jovem recém formado em Sistemas de Informação pela Universidade Vila Velha, que até hoje permanece como cargo de presidente. A empresa em si fornece produtos de Higiene para outras empresas que no caso são as ‘’ Filiais ‘’. 
-
-- Os funcionários da empresa de higienização precisam trabalhar muito para sempre fornecer um melhor produto para que outras empresas sempre voltarem a comprar com nós. Assim as filiais e também outros clientes podem sempre estar satisfeito com cada produto fornecido.
-
-- Cada funcionário da empresa e da filial, exerce um cargo, e assim recebem seus respectivos salários, para que eles tenham um salário eles de fato precisam está registrado no banco de dados da empresa, como: ( nome, cpf, data de nascimento, entrada na empresa, cargo exercido & a conta a qual ele vai receber o salário ).
-
-- Os funcionários das empresas precisam fazer um registro de cada compra! A cada cliente que vá até a empresa ou filial comprar um produto de higiene, eles precisam fazer um cadastro no banco de Dados da empresa. Sendo assim eles precisam dizer o CPF ou CNPJ, data de nascimento, número de telefone, e-mail e o endereço de onde mora.
-
-- Assim que o funcionário finalizar o cadastro do cliente, ele está abito a poder comprar os produtos a qual estão sendo vendido na empresa ou a filial.
-
-
-
-## To-do
-
-> Modelo de Diagrama Físico
+Em uma conversa com o proprietário dessa loja, o proprietário relatou que, um dos maiores problemas atualmente é que ele não consegue controlar o estoque dele, e que ele não consegue saber qual foi o vendedor que realizou a venda, como que ele tem clientes antigos e novos que sempre compra na loja, ele quer que seja realizado um cadastro de cliente para que consiga identificar para qual cliente o produto foi destinado.
