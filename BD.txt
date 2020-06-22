@@ -1,0 +1,89 @@
+create table Clientes(
+    id Integer primary key,
+    nome Varchar2(32) not null,
+    sobrenome Varchar2(32) not null,
+    cpf       Varchar2(32) not null unique,
+    email     Varchar2(32)unique
+);
+
+insert into Clientes(id, nome, sobrenome, cpf, email) values ('1000', 'Julia', 'Maria', '000.000.000.-01', 'julia@mail.com.br');
+insert into Clientes(id, nome, sobrenome, cpf, email) values ('1001', 'Flavio', 'Silva', '000.000.000-02', 'silva_flavio@mail.com');
+insert into Clientes(id, nome, sobrenome, cpf, email) values ('1002', 'Marica', 'Pinheiro', '000.000.000-03', 'marcia@mail.br');
+insert into Clientes(id, nome, sobrenome, cpf, email) values ('1003', 'Carlos', 'Almeida', '000.000.000-.04', 'carlos-meida@mail.com');
+insert into Clientes(id, nome, sobrenome, cpf, email) values ('1004', 'Monica', 'Souza', '000.000.000-05', 'Souza_monica@mail.com.br');
+
+select * from Clientes
+
+
+create table vendedor(
+    id Integer primary key, 
+    nome Varchar2(32) not null,
+    sobrenome Varchar2(32) not null,
+    cpf       Varchar2(32) not null unique,
+    email     Varchar2(32) unique,
+    telefone  Varchar2(32) not null
+);
+
+insert into vendedor(id, nome, sobrenome, cpf, email, telefone) values ('5', 'Ronald', 'Weslay', '100.200.300-00', 'Weslay_ron@mail.br', '+552799880010');
+insert into vendedor(id, nome, sobrenome, cpf, email, telefone) values ('4', 'Jorge', 'Santos', '200.130.200-01', 'jorgin_SA@mail.com.br', '+552799205578');
+insert into vendedor(id, nome, sobrenome, cpf, email, telefone) values ('3', 'Judity', 'Maia', '000.102.203-08', 'Maia_ju@mail.com', '+552788900800');
+insert into vendedor(id, nome, sobrenome, cpf, email, telefone) values ('2', 'Olivia', 'Maria', '400.150.202-69', 'Maria-mail@live.com', '+552799969960');
+insert into vendedor(id, nome, sobrenome, cpf, email, telefone) values ('1', 'Miguel', 'Teixeira', '010,020,000-88', 'miguel_LOL@mail.com', '+552788880202');
+
+select * from vendedor
+
+select * from Clientes, vendedor;
+
+
+create table Venda(
+        id Integer primary key,
+        nome Varchar2(32) not null, 
+        modelo Varchar2(32) not null, 
+        quantidade  Varchar2(32) not null,
+        SN     Varchar2(32) not null unique,
+        data   DATE NOT NULL
+);
+
+
+insert into Venda (id, nome, modelo, quantidade, SN,data) values ('1001', 'IRONWOLF', '1TB', '1', '50026B88770', TO_DATE('29/05/2020', 'DD/MM/YYYY'));
+insert into Venda (id, nome, modelo, quantidade, SN,data) values ('999', 'IRONWOLF', '2TB', '3', '700255a1010', TO_DATE('25/05/2020', 'DD/MM/YYYY'));
+insert into Venda (id, nome, modelo, quantidade, SN,data) values ('2002', 'Sandisk', 'SSD120GB', '4', '001210505', TO_DATE('25/05/2020', 'DD/MM/YYYY'));
+insert into Venda (id, nome, modelo, quantidade, SN,data) values ('1998', 'Barracuda', '500GB', '10',  '0001210210', TO_DATE('24/05/2020', 'DD/MM/YYYY'));
+insert into Venda (id, nome, modelo, quantidade, SN,data) values ('1005', 'IRONWOLF', '3TB', '1', '1230222250', TO_DATE('24/05/2020', 'DD/MM/YYYY'));
+
+
+select * from Venda
+
+create table Produto(
+    id Integer primary key,
+    nome Varchar2(32) not null,
+    modelo Varchar2(32) not null,
+    estoque Varchar2(32) not null 
+
+);
+
+
+insert into Produto (id, nome, modelo, estoque) values ('500', 'IRONWOLF', '1TB', '100UN');
+insert into Produto (id, nome, modelo, estoque) values ('501', 'IRONWOLF', '2TB', '200UN');
+insert into Produto (id, nome, modelo, estoque) values ('502', 'Sandisk',  '120GB', '250UN');
+insert into Produto (id, nome, modelo, estoque) values ('503', 'Barracuda', '500GB', '90UN');
+insert into Produto (id, nome, modelo, estoque) values  ('504', 'IRONWOLF', '3TB',  '12UN');
+
+select * from Produto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
